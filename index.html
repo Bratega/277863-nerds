@@ -1,12 +1,198 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
 
-  </body>
+<body>
+
+  <header class="main-header">
+    <div class="container clearfix">
+      <div class="index-logo">
+        <img class="index-logo-img" src="img/nerds-logo.png" width="160" height="65" alt="logo">
+      </div>
+      <nav class="main-navigation">
+        <ul class="main-navigation-list">
+          <li class="main-navigation-item">
+            <a class="main-navigation-link" href="#">Студия</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-link" href="#">Клиенты</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-link" href="catalog.html">Магазин</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="basket">
+        <a class="basket-link" href="#">Корзина</a>
+      </div>
+    </div>
+    <div class="slider">
+      <input class="slider-input" type="radio" id="btn-1" name="toggle" checked>
+      <input class="slider-input" type="radio" id="btn-2" name="toggle">
+      <input class="slider-input" type="radio" id="btn-3" name="toggle">
+      <div class="slider-inner">
+        <div class="slider-sliders">
+          <div class="slider-one">
+            <b class="slider-title">Долго, дорого, скрупулезно.</b>
+            <p class="slider-text">Математически выверенный расчет для вашего сайта или мобильного приложения.</p>
+            <a class="btn slider-btn" href="#">Узнать больше</a>
+          </div>
+          <div class="slider-two">
+            <b class="slider-title">Любим математику как никто другой</b>
+            <p class="slider-text">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+            <a class="btn slider-btn" href="#">Узнать больше</a>
+          </div>
+          <div class="slider-three">
+            <b class="slider-title">Только ночь, только хардкор</b>
+            <p class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+            <a class="btn slider-btn" href="#">Узнать больше</a>
+          </div>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <label class="slider-controls-label" for="btn-1"></label>
+        <label class="slider-controls-label" for="btn-2"></label>
+        <label class="slider-controls-label" for="btn-3"></label>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section class="features clearfix">
+      <section class="feature-item">
+        <div class="feature-photo">
+          <img class="feature-photo-img" src="img/illustration-web.png" width="300" height="146" alt="photo">
+        </div>
+        <h2 class="feature-title">Веб-сайты</h2>
+        <p class="feature-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+        <a class="btn feature-item-btn web" href="#">заказать</a>
+      </section>
+      <section class="feature-item">
+        <div class="feature-photo">
+          <img class="feature-photo-img" src="img/illustration-annexes.png" width="300" height="146" alt="photo">
+        </div>
+        <h2 class="feature-title">Приложения</h2>
+        <p class="feature-text">Покорите топ-10 приложений в AppStore и GooglePlay</p>
+        <a class="btn feature-item-btn annexes" href="#">заказать</a>
+      </section>
+      <section class="feature-item">
+        <div class="feature-photo">
+          <img class="feature-photo-img" src="img/illustration-presentation.png" width="300" height="146" alt="photo">
+        </div>
+        <h2 class="feature-title">Презентаци</h2>
+        <p class="feature-text">Вы даже не подозреваете, насколько вы изумительны!</p>
+        <a class="btn feature-item-btn presentation" href="#">заказать</a>
+      </section>
+    </section>
+    <div class="content clearfix">
+      <div class="content-description">
+        <b class="content-title">Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
+        <p class="content-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+        <h3 class="content-caption">Выполняем заказы на разработку:</h3>
+        <ul class="content-list">
+          <li class="content-list-item">Веб-сайтов любой сложности</li>
+          <li class="content-list-item">Мобильных приложений для OS и Android</li>
+          <li class="content-list-item">Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
+      </div>
+      <div class="content-about">
+        <div class="content-logo">
+          <img class="content-logo-img" src="img/nerds-illustration.png" width="360" height="208" alt="logo">
+        </div>
+        <h3 class="content-caption">С 2004 года любим точность во всем:</h3>
+        <table class="content-table">
+          <tr class="content-table-row">
+            <td class="content-table-cell bold">
+              146<sup>%</sup>
+            </td>
+            <td class="content-table-cell bold">
+              100<sup>%</sup>
+            </td>
+            <td class="content-table-cell bold">
+              50<sup>%</sup>
+            </td>
+          </tr>
+          <tr class="content-table-row">
+            <td class="content-table-cell">
+              Уровень самоотдачи
+            </td>
+            <td class="content-table-cell">
+              Соблюдение сроков
+            </td>
+            <td class="content-table-cell">
+              Минимальная предоплата
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="partners">
+      <a class="partners-link" href="#">
+        <img class="partners-link-img" src="img/logo-academy.png" width="199" height="68" alt="htmlacdemy">
+      </a>
+      <a class="partners-link" href="#">
+        <img class="partners-link-img" src="img/logo-borodinski.png" width="209" height="87" alt="borodinski">
+      </a>
+      <a class="partners-link" href="#">
+        <img class="partners-link-img" src="img/logo-pink.png" width="185" height="52" alt="pink">
+      </a>
+      <a class="partners-link" href="#">
+        <img class="partners-link-img" src="img/logo-mishka.png" width="173" height="84" alt="mishka">
+      </a>
+    </div>
+  </main>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d499.6505080846187!2d30.322857!3d59.9387456!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sit!4v1494574703896" width="1440" height="416" style="border-width:1px" allowfullscreen></iframe>
+    <div class="contact">
+      <h2 class="contact-title">NЁRDS DESIGN STUDIO</h2>
+      <p class="contact-text">
+        191186,Санкт-Петербург, ул.Б. Конюшенная,д. 19/8</p>
+      <p class="contact-text">тел.+7 (812) 275-75-75
+      </p>
+      <a class="btn contact-btn" href="#">напишите нам</a>
+    </div>
+  </div>
+  <footer class="main-footer">
+    <div class="container clearfix">
+      <div class="footer-social">
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-ins" href="#">Инстаграм</a>
+      </div>
+      <div class="friends">
+        <h2 class="friends-title">Давайте дружить, это выгодно!</h2>
+        <p class="friends-text">
+          Скидка 10% для друзей из социальных сетей.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <div class="modal-content">
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+    <h2 class="modal-content-title">Напишите нам</h2>
+    <form class="form action" action="https://echo.htmlacademy.ru" method="post">
+      <label class="field-text">Ваше имя:
+        <input class="field-text-input" type="text" name="user-name" placeholder="Представьтесь, пожалуйста">
+      </label>
+      <label class="field-text">Ваш e-mail:
+        <input class="field-text-input" type="email" name="email" placeholder="Для отправки ответа">
+      </label>
+      <label class="field-text">Текст письма:
+        <textarea class="field-text-textarea" name="message" placeholder="В свободной форме"></textarea>
+      </label>
+      <button class="btn form-btn" type="submit">Отправить</button>
+    </form>
+  </div>
+  <script src="js/index.min.js"></script>
+</body>
+
 </html>
